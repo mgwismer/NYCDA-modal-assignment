@@ -1,20 +1,59 @@
 body {
-  width:950px; 
-  height: 300px; 
-  background: yellow;
+  width: 100%; 
 }
 
-h1 {
+#page-heading {
   width: 1000px;
   margin: 0 auto;
-  font-size: 30px;
-  border: 20px solid blue;
+  font-size: 50px;
   text-align: center;
+  font-family: sans-serif;
+  color: brown;
 }
 
+#subheading {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  font-family: cursive;
+  color: yellow;
+}
+
+nav {
+  width: 100%;
+}
+/* The nav-bar styling */
+.nav-container {
+
+}
+.nav-menu {
+	color: #203d00;
+	background-color: #c9eda3;
+	font-weight: bold;
+	font-size: 16px;
+	width: 1000px;
+	padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-menu-item	{
+	list-style-type: none;
+	padding: 10px;
+	display: inline;
+	text-align: center;
+}
+
+.nav-menu-link {
+	color: #203d00;
+	text-align: center;
+	text-decoration: none;
+}
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
+    visibility: hidden;
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     right: 0px;
@@ -33,4 +72,10 @@ h1 {
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#close-button {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
 }
