@@ -115,8 +115,9 @@ nav {
     width: 300px; /* Full width */
     height: 200px; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    /*background-color: rgb(0,0,0);  Fallback color */
+    background-color: rgba(255,0,0,0.4); /* Black w/ opacity */
+    border: 10px solid purple;
 }
 
 /* Modal Content/Box */
@@ -128,8 +129,10 @@ nav {
     width: 80%; /* Could be more or less, depending on screen size */
 }
 
-#close-button {
+.close-button {
 	position: absolute;
-	bottom: 10px;
+  width: 75px;
+  height: 50px;
+	bottom: 90px;
 	right: 10px;
 }
