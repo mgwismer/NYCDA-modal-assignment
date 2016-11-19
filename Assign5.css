@@ -10,16 +10,14 @@ nav {
 .nav-container {
   width: 100%;
   height: 200px;
-  border: 10px solid black;
 }
 
 .nav-menu {
 	color: #203d00;
-	background-color: #c9eda3;
 	font-weight: bold;
 	font-size: 16px;
 	width: 1000px;
-	padding: 10px;
+	padding: 0px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -27,24 +25,45 @@ nav {
 
 .nav-bar {
 /*   border: 10px solid red;*/
-   height: 10px;
+   margin-top: 30px;
+   height: 20px;
    width: 80%;
    display: flex;
    background-color: red;
    justify-content: center;
+   position: relative;
+   top: 20px;
 }
 
 .nav-menu-item	{
 	list-style-type: none;
+  width: 90px;
+  height: 40px;
+  background: yellow;
   border: 5px solid purple;
 	padding: 15px;
+  margin: 5px;
 	display: inline-block;
+  position: relative;
+  bottom: 25px;
+}
+
+.one-line {
+  line-height: 30px;
+  text-align: center;
+}
+
+.two-line {
+  line-height: 20px;
+  text-align: center;
 }
 
 .nav-menu-link {
 	color: #203d00;
 	text-decoration: none;
   font-size: 25px;
+  padding: 5px;
+  margin: 0px;
 }
 
 .page-heading {
@@ -75,6 +94,7 @@ nav {
    height: 300px;
    background: url('distraction.jpg');
    margin: 10px;
+   position: relative;
    float: left;
 }
 
@@ -83,6 +103,7 @@ nav {
    height: 300px;
    background: url('activists.jpg');
    margin: 10px;
+   position: relative;
    float: left;
 }
 
@@ -92,6 +113,7 @@ nav {
    background: url('meditation-techniques-bodhi-tree.jpg');
    margin: 10px;
    float: left;
+   position: relative;
 }
 
 .image-text {
@@ -147,7 +169,6 @@ nav {
 }
 
 .form-modal {
-  position: relative;
   visibility: hidden;
   background-color: rgb(255,0,0); /* Black w/ opacity */
   border: 10px solid blue;
