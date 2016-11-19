@@ -76,7 +76,6 @@ nav {
    background: url('distraction.jpg');
    margin: 10px;
    float: left;
-   position: relative;
 }
 
 .activism-image {
@@ -85,7 +84,6 @@ nav {
    background: url('activists.jpg');
    margin: 10px;
    float: left;
-   position: relative;
 }
 
 .meditation-image {
@@ -94,7 +92,6 @@ nav {
    background: url('meditation-techniques-bodhi-tree.jpg');
    margin: 10px;
    float: left;
-   position: relative;
 }
 
 .image-text {
