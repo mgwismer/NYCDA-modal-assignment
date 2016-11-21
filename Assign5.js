@@ -10,7 +10,6 @@
     //not find this anywhere. Also ElementsByClassName does not seem to work 
     //with childNodes.
     var modalContent = document.getElementById('first-modal').childNodes;
-    //Not sure why 2 and not 1
     modalContent[3].addEventListener('click',function(){(closeModal("myModal"))});
     modalContent[5].addEventListener('click',function(){(openFormModal("formModal"))});
   }
