@@ -3,6 +3,7 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" href="Assign5.css">
+  <link rel="stylesheet" href="Assign5_media.css">
 </head>
 
 <body id="body-class">
@@ -10,16 +11,47 @@
 	<div class="nav-container">
 	    <ul class="nav-menu">
 	    	<span class="nav-bar"> 
-		    <a class="nav-menu-link" href="index.html"><li class="nav-menu-item one-line">  Home </li> </a>
-		    <a class="nav-menu-link" href="aboutus.html"> <li class="nav-menu-item one-line">Abroad  </li> </a>
-		    <a class="nav-menu-link" href="AboutTrash.html"> <li class="nav-menu-item two-line"> The Zone  </li> </a>
-		    <a class="nav-menu-link" href="help.html"> <li class="nav-menu-item two-line"> More Info </li> </a> </span>
+
+        <div class="dropdown">
+          <a class="nav-menu-link" href="help.html"> <li class="nav-menu-item two-line"> Home
+          </li> </a>
+        </div>
+        <div class="dropdown">
+          <a class="nav-menu-link" href="help.html"> <li class="nav-menu-item two-line"> Abroad
+            <div class="dropdown-content">
+              <a href="#">Canada</a>
+              <a href="#">Bermuda</a>
+              <a href="#">Underground</a>
+            </div>
+          </li> </a>
+        </div>
+        <div class="dropdown">
+          <a class="nav-menu-link" href="help.html"> <li class="nav-menu-item two-line"> The Zone
+            <div class="dropdown-content">
+              <a href="#">Rhapsody</a>
+              <a href="#">Lucidity</a>
+              <a href="#">Fantasy</a>
+            </div>
+          </li> </a>
+        </div>
+        <div class="dropdown">
+		      <a class="nav-menu-link" href="help.html"> <li class="nav-menu-item two-line"> Services 
+            <div class="dropdown-content">
+              <a href="#">Group practice</a>
+              <a href="#">Individual consultation</a>
+              <a href="#">Institutional advice</a>
+              <a href="#">Remote</a>
+            </div>
+          </li> </a>
+        </div>
+        </span>
 	    </ul>
 	</div>
 </nav>
 
 <h1 class="page-heading"> CWAP </h1>
 <h2 class="subheading"> Coping with American Politics </h2>
+<h2 class="subheading"> through </h2>
 
 <div class="image-box">
    <div class="distract-image"> <p class="image-text"> Find distraction </p> </div>
@@ -32,20 +64,23 @@
 <div id="myModal" class="modal top-modal">
 
   <!-- Modal content -->
-  <div class="modal-content">
+  <div id="first-modal">
+  <p class="modal-text"> How are you faring? </p>
     <button class="close-button" type="button"> MAKING IT </button>
     <button class="more-button" type="button"> SEARCHING
      </button>
   </div>
 </div>
 
-<div class="modal form-modal">
+<div id="formModal" class="modal form-modal">
   <form class="info-modal">  
     <input type="username" class="form-email" placeholder="email address"/>
     <input type="email" class="form-comment" placeholder="Vent"/>
-    <input id ="subm" type="button" value="Submit"/>                 
+    <input class ="subm-button" type="button" value="Submit"/>                 
   </form>
 </div>
+
+<div class="body-text"> <p class="inner-text"> We have experience and informed methods for helping anyone in need from uneducated white males all the way up to and including college-educated multi-racial females. We have a variety of techniques</p></div>
 </body>
 
 <script src="Assign5.js" type="text/javascript"></script>
